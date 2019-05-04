@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fav_grid_single_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <FrameLayout
+        android:layout_width="@dimen/cardWidht"
+        android:layout_height="@dimen/cardHeight">
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                android:id="@+id/customviewGroupCardBackPlayImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/lock"/>
+         </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

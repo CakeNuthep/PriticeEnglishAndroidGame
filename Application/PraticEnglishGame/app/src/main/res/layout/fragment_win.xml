@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clickable="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:alpha="0.5">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeWin"
+            android:layout_width="@dimen/backGroundWinWidth"
+            android:layout_height="@dimen/backGroundWinHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                        android:id="@+id/winHeart1"
+                        android:layout_width="@dimen/heartWinWidth"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/empty_heart"/>
+
+                    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                        android:id="@+id/winHeart2"
+                        android:layout_width="@dimen/heartWinWidth"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/empty_heart"/>
+
+                    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                        android:id="@+id/winHeart3"
+                        android:layout_width="@dimen/heartWinWidth"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/empty_heart"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/win"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/textWinSize"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/tap"
+                android:textSize="@dimen/textTapWinSize"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

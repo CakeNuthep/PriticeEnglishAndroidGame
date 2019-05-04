@@ -1,0 +1,17 @@
+<resources>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="lost">LOST</string>
+    <string name="win">WIN</string>
+    <string name="tap">Tap to continute.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="dialog_network_problem">Can not Connect Network!</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="setting">Setting</string>
+
+    <string name="UnitID" translatable="false">ca-app-pub-2988123587494924/6273854537</string>
+    <string name="TestDeviceID" translatable="false">3EC3C9E0A765A6EF65A6F4C9A0BA6E68</string>
+
+</resources>

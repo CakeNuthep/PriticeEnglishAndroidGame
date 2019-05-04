@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardHeight">140dp</dimen>
+    <dimen name="cardWidht">80dp</dimen>
+    <dimen name="closeHeight">30dp</dimen>
+    <dimen name="closeWidht">30dp</dimen>
+    <dimen name="closeMargin">3dp</dimen>
+    <dimen name="textSizeVocap">15dp</dimen>
+
+    <dimen name="quizeHeight">100dp</dimen>
+    <dimen name="quizeWidht">100dp</dimen>
+    <dimen name="quizeTextSizeWidht">15dp</dimen>
+
+    <dimen name="heartWidht">30dp</dimen>
+
+    <dimen name="effectSoundSettingHeight">100dp</dimen>
+    <dimen name="effectSoundSettingWidht">100dp</dimen>
+
+    <dimen name="backButtonSettingHeight">100dp</dimen>
+    <dimen name="backButtonSettingWidht">100dp</dimen>
+
+    <dimen name="seekbarSettingHeight">100dp</dimen>
+    <dimen name="seekbarSettingWidht">100dp</dimen>
+
+    <dimen name="backButtonQuizeFragmentHeight">100dp</dimen>
+    <dimen name="backButtonQuizeFragmentWidht">100dp</dimen>
+
+    <dimen name="loadingTextSize">30dp</dimen>
+    <dimen name="dateTimeUpdateTextSize">10dp</dimen>
+    <dimen name="countTimeTextSize">20sp</dimen>
+
+    <dimen name="buttonMainWidht">200dp</dimen>
+    <dimen name="textMainSize">15dp</dimen>
+    <dimen name="cardMainWidth">300dp</dimen>
+
+    <dimen name="backGroundWinWidth">300dp</dimen>
+    <dimen name="backGroundWinHeight">200dp</dimen>
+    <dimen name="textWinSize">80dp</dimen>
+    <dimen name="textTapWinSize">15dp</dimen>
+    <dimen name="heartWinWidth">50dp</dimen>
+
+    <dimen name="backGroundLostWidth">300dp</dimen>
+    <dimen name="backGroundLostHeight">200dp</dimen>
+    <dimen name="textLostSize">80dp</dimen>
+    <dimen name="textTapLostSize">15dp</dimen>
+</resources>

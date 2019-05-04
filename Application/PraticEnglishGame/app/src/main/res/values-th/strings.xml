@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="easy">ง่าย</string>
+    <string name="medium">ปานกลาง</string>
+    <string name="hard">ยาก</string>
+    <string name="lost">แพ้</string>
+    <string name="win">ชนะ</string>
+    <string name="tap">แตะเพื่อเล่นต่อ</string>
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="dialog_network_problem">ไม่สามารถเชื่อมต่ออินเตอร์เน็ตได้!</string>
+    <string name="setting">ตั้งค่า</string>
+</resources>

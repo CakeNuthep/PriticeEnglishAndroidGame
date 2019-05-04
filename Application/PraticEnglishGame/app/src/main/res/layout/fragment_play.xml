@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TIME: "
+                        android:textSize="@dimen/countTimeTextSize"/>
+                    <TextView
+                        android:id="@+id/timeForPlay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HH:MM"
+                        android:textSize="@dimen/countTimeTextSize"/>
+
+
+                </LinearLayout>
+
+                <com.language.cake.praticenglishgame.view.HeartCustomViewGroup
+                    android:id="@+id/heartCustomviewGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/background">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:columnCount="1"
+                        >
+
+                        <com.language.cake.praticenglishgame.view.CardGroupCustomViewGroup
+                            android:id="@+id/GroupCard1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="5dp"
+                        android:layout_margin="10dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimaryDark"
+                        >
+
+                    </GridLayout>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:columnCount="1"
+                        >
+
+                        <com.language.cake.praticenglishgame.view.CardGroupCustomViewGroup
+                            android:id="@+id/GroupCard2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </GridLayout>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/loadFrameLayoutPlayFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ProgressBar
+                android:id="@+id/loadProgressBar"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/loading"
+                android:textSize="@dimen/loadingTextSize"
+                android:gravity="center"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
